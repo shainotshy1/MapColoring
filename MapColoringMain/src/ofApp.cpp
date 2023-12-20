@@ -1,8 +1,12 @@
 #include "ofApp.h"
+#include "../MapGenerator.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+	// Create map generator
+	MapGenerator generator;
+	generator.generate();
+	generator.display();
 }
 
 //--------------------------------------------------------------
