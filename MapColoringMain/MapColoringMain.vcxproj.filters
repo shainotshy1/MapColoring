@@ -7,42 +7,24 @@
 		<ClCompile Include="src\main.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
-		<ClCompile Include="C:\Users\shaij\Downloads\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxVectorGraphics\src\ofxVectorGraphics.cpp">
-			<Filter>addons\ofxVectorGraphics\src</Filter>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
 		</ClCompile>
-		<ClCompile Include="C:\Users\shaij\Downloads\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxVectorGraphics\libs\CreEPS.cpp">
-			<Filter>addons\ofxVectorGraphics\libs</Filter>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
 		</ClCompile>
 	</ItemGroup>
 	<ItemGroup>
 		<Filter Include="src">
 			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="addons">
-			<UniqueIdentifier>{CC11FFA1--E71-7-4B-A9-9-C4A-1DAEB8E409C0}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxVectorGraphics">
-			<UniqueIdentifier>{99708C58--946-5-47-45-A-204-A4867F6F9449}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxVectorGraphics\src">
-			<UniqueIdentifier>{82B3D317--988-4-4C-1F-8-AF1-D41990A781C3}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxVectorGraphics\libs">
-			<UniqueIdentifier>{5B15A06B--1E7-0-40-69-A-7E8-0D4825F75C9D}</UniqueIdentifier>
-		</Filter>
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="src\ofApp.h">
 			<Filter>src</Filter>
 		</ClInclude>
-		<ClInclude Include="C:\Users\shaij\Downloads\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxVectorGraphics\src\ofxVectorGraphics.h">
-			<Filter>addons\ofxVectorGraphics\src</Filter>
-		</ClInclude>
-		<ClInclude Include="C:\Users\shaij\Downloads\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxVectorGraphics\libs\CreEPS.hpp">
-			<Filter>addons\ofxVectorGraphics\libs</Filter>
-		</ClInclude>
-		<ClInclude Include="C:\Users\shaij\Downloads\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxVectorGraphics\libs\CreEPS_Types.hpp">
-			<Filter>addons\ofxVectorGraphics\libs</Filter>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
 		</ClInclude>
 	</ItemGroup>
 	<ItemGroup>
