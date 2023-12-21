@@ -19,6 +19,9 @@
     <ClCompile Include="MapGenerator.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="MapShape.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -40,6 +43,9 @@
     </ClInclude>
     <ClInclude Include="MapGenerator.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MapShape.h">
+      <Filter>src\Models</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
