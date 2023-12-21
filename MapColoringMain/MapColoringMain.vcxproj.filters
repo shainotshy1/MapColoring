@@ -47,6 +47,9 @@
     <ClInclude Include="MapShape.h">
       <Filter>src\Models</Filter>
     </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="icon.rc" />

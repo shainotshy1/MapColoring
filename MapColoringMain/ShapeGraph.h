@@ -8,7 +8,7 @@ class Node {
 public:
 	int color; // If -1 then has not been visited
 	std::unordered_set<int> available_colors;
-	std::vector<Node*> neighbors;
+	std::unordered_set<Node*> neighbors;
 
 	Node() {
 		color = -1;
@@ -19,7 +19,7 @@ public:
 	}
 
 	void connect(Node* other) {
-		neighbors.push_back(other);
+		neighbors.insert(other);
 	}
 };
 
@@ -29,13 +29,14 @@ private:
 	std::unordered_map<MapShape*, Node*> node_map;
 	int num_colors;
 
+	void add_shape(MapShape*); // Adds a shape to the graph
+	void create_edge(MapShape*, MapShape*); // Creates edge between two nodes
+	bool generate_helper(Node*); // Recursive helper for map coloring
+
+public:
 	ShapeGraph(int);
 	~ShapeGraph();
-	void add_shape(MapShape*);
-	void create_edge(MapShape*, MapShape*);
-	bool generate_helper(Node*);
-public:
-	void connect_shapes(std::vector<MapShape*>&);
-	bool generate_coloring(); // returns if coloring was successful
+	void connect_shapes(std::vector<MapShape*>&); // Connects two shapes that share an edge
+	bool generate_coloring(); // Returns if coloring was successful
 };
 
